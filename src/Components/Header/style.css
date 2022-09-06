@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.NavHeader {
+  display: flex;
+  height: 34px;
+  gap: 57px;
+}
+
+.header-logo {
+  color: #ff6060;
+  height: 62px;
+}
+
+.NavHeader a {
+  color: #ff6060;
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.NavHeader a:hover,
+.NavHeader a.active {
+  text-decoration: underline;
+}

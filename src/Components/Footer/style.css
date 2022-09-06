@@ -1,0 +1,25 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 209px;
+  background-color: #000000;
+  color: white;
+  gap: 28px;
+}
+
+.TextFooter {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  width: 513px;
+  height: 46px;
+}
+
+.LogoFooter {
+  color: white;
+  width: 122px;
+  height: 39px;
+}
