@@ -1,0 +1,14 @@
+.head-cover {
+  display: flex;
+  width: 100%;
+  height: 223px;
+  border-radius: 25px;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 48px;
+  font-weight: 500;
+}

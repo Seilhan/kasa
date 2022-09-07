@@ -1,3 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
 .Card {
   display: flex;
+  min-height: 340px;
+  border-radius: 10px;
+  background-color: #ff6060;
+  max-width: 340px;
+  width: 100%;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.card-gradient {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  padding: 20px;
+  color: white;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: 500;
 }

@@ -1,4 +1,4 @@
-import IconLogo from '../PhotoHead/Logo'
+import IconLogo from '../Icons/Logo'
 import { Link } from 'react-router-dom'
 
 function LogoButton() {

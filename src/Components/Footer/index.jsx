@@ -1,10 +1,12 @@
 import './style.css'
-import Logo from './LogoFooter'
+import IconLogo from '../Icons/Logo'
 
 function Footer() {
   return (
     <div className="Footer">
-      <Logo />
+      <div className="LogoFooter">
+        <IconLogo />
+      </div>
       <p className="TextFooter">© 2020 Kasa. Tous droits réservés</p>
     </div>
   )
