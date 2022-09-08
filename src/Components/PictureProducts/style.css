@@ -1,0 +1,17 @@
+.cover-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  border-radius: 25px;
+  min-width: 1240px;
+  height: 415px;
+  overflow: hidden;
+}
+
+.cover-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: center;
+}

@@ -5,7 +5,6 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Product from './Pages/Product'
 import Error from './Pages/Error'
-// import { Datas } from './data'
 
 function App() {
   return (

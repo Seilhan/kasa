@@ -4,7 +4,8 @@ function CoverHome(props) {
   const headerPhStyle = { backgroundImage: `url(${props.img})` }
   return (
     <div className="head-cover" style={headerPhStyle}>
-      {props.title}
+      <div className="head-shadow"></div>
+      <span className="head-text">{props.title}</span>
     </div>
   )
 }

@@ -20,7 +20,7 @@ function Home() {
             key={card.id}
             title={card.title}
             img={card.cover}
-            url={`/products/${card.id}`}
+            url={`/product/${card.id}`}
           />
         ))}
       </div>

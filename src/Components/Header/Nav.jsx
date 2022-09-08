@@ -5,8 +5,8 @@ import './style.css'
 function Nav() {
   return (
     <nav className="NavHeader">
-      <Link to="/src/Pages/Home.jsx">Acceuil</Link>
-      <Link to="/src/Pages/Home.jsx">A Propos</Link>
+      <Link to="/">Acceuil</Link>
+      <Link to="/about">A Propos</Link>
     </nav>
   )
 }
