@@ -92,3 +92,9 @@ body,
   align-items: center;
   justify-content: space-between;
 }
+
+.product-collapes {
+  display: flex;
+  gap: 76px;
+  margin-top: 24px;
+}

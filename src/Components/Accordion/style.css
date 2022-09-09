@@ -1,8 +1,4 @@
-.dropdown {
-  margin-top: 24px;
-}
-
-.description {
+.collapse-button {
   display: flex;
   height: 52px;
   align-items: center;
@@ -10,15 +6,44 @@
   color: white;
   font-weight: 500;
   font-size: 18px;
-  width: 582px;
   border-radius: 10px;
-  padding-left: 20px;
+  padding: 0 20px;
   border: none;
   cursor: pointer;
+  justify-content: space-between;
 }
 
-.btn {
+.collapse-container {
+  background-color: #f6f6f6;
+  border-radius: 10px;
   display: flex;
-  justify-content: space-between;
-  margin-top: 24px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.collapse-container.hide {
+  height: max-content;
+}
+
+.collapse-container.hide .collapse-description {
+  display: none;
+}
+
+.collapse-container.hide .collapse-arrow {
+  transform: rotate(180deg);
+}
+
+.collapse-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 40px 20px 50px 20px;
+}
+.collapse-description p {
+  padding: 0;
+  margin: 0;
+}
+
+.collapse-arrow {
+  transition: all 0.3s;
 }

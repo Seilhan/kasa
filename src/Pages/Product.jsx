@@ -5,7 +5,6 @@ import Tag from '../Components/Tag'
 import Rate from '../Components/Rate'
 import Host from '../Components/Host'
 import Drop from '../Components/Accordion'
-// import Drop from '../Components/Accordion'
 
 function Product() {
   const { id } = useParams()
@@ -31,8 +30,14 @@ function Product() {
           <Rate nb={product.rating} />
         </div>
       </div>
-      <div>
-        <Drop />
+      <div className="product-collapes">
+        <Drop title="Description" description={product.description} />
+        <Drop
+          title="Équipements"
+          description={product.equipments.map((eq, index) => (
+            <p key={index}>{eq}</p>
+          ))}
+        />
       </div>
     </div>
   )
