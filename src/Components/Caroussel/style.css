@@ -1,4 +1,4 @@
-.cover-product {
+.caroussel-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,9 +6,10 @@
   border-radius: 25px;
   height: 415px;
   overflow: hidden;
+  position: relative;
 }
 
-.cover-img {
+.caroussel-img {
   object-fit: cover;
   height: 100%;
   width: 100%;

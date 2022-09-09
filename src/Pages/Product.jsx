@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { getIdProduct } from '../api'
-import PictureProduct from '../Components/PictureProducts'
+import Caroussel from '../Components/Caroussel'
 import Tag from '../Components/Tag'
 import Rate from '../Components/Rate'
 import Host from '../Components/Host'
@@ -10,11 +10,9 @@ function Product() {
   const { id } = useParams()
   const product = getIdProduct(id)
 
-  console.log(product)
-
   return (
     <div>
-      <PictureProduct pictures={product.pictures} />
+      <Caroussel pictures={product.pictures} />
       <div className="info-product">
         <div>
           <h1 className="title-product">{product.title}</h1>
