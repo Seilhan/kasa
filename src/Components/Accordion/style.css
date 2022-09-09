@@ -1,16 +1,24 @@
 .dropdown {
-  display: flex;
+  margin-top: 24px;
 }
 
 .description {
   display: flex;
+  height: 52px;
   align-items: center;
   background-color: #ff6060;
   color: white;
   font-weight: 500;
   font-size: 18px;
   width: 582px;
-  height: 52px;
   border-radius: 10px;
   padding-left: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
 }

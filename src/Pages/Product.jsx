@@ -4,6 +4,7 @@ import PictureProduct from '../Components/PictureProducts'
 import Tag from '../Components/Tag'
 import Rate from '../Components/Rate'
 import Host from '../Components/Host'
+import Drop from '../Components/Accordion'
 // import Drop from '../Components/Accordion'
 
 function Product() {
@@ -30,9 +31,8 @@ function Product() {
           <Rate nb={product.rating} />
         </div>
       </div>
-      <div className="dropdown">
-        <button className="description">Description</button>
-        <button className="description">Equipements</button>
+      <div>
+        <Drop />
       </div>
     </div>
   )
