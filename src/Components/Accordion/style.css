@@ -1,0 +1,16 @@
+.dropdown {
+  display: flex;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  background-color: #ff6060;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  width: 582px;
+  height: 52px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
