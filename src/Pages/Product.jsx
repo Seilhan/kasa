@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { getIdProduct } from '../api'
 import Caroussel from '../Components/Caroussel'
 import Tag from '../Components/Tag'
@@ -10,8 +10,12 @@ function Product() {
   const { id } = useParams()
   const product = getIdProduct(id)
 
+  let navigate = useNavigate()
+
+  if (!product) return navigate('/not-found')
+
   return (
-    <div>
+    <div className="content-product">
       <Caroussel pictures={product.pictures} />
       <div className="info-product">
         <div>

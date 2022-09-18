@@ -2,9 +2,9 @@ import Drop from '../Components/Accordion'
 import PhotoHead from '../Components/PhotoHead'
 import AboutCover from '../assets/about-cover.jpg'
 
-function About(props) {
+function About() {
   return (
-    <div className="about-content">
+    <div className="about-container">
       <PhotoHead img={AboutCover} />
       <div className="about-collapse">
         <Drop
