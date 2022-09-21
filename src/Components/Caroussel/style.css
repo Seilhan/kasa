@@ -32,3 +32,11 @@
   cursor: pointer;
   position: absolute;
 }
+
+.counter-nb {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 357px;
+}

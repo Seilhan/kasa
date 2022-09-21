@@ -16,7 +16,9 @@ function Caroussel(props) {
           <ArrowCarousselL />
           <ArrowCarousselD />
         </div>
-        <div className="counter-img"></div>
+        <div>
+          <p className="counter-nb">1/4</p>
+        </div>
       </div>
     </div>
   )
