@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: bisque;
   border-radius: 25px;
   height: 415px;
   overflow: hidden;
@@ -14,4 +13,21 @@
   height: 100%;
   width: 100%;
   object-position: center;
+  position: relative;
+}
+
+.caroussel-action {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.caroussel-arrow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 23px 0 23px;
+  min-width: 1240px;
+  cursor: pointer;
 }
