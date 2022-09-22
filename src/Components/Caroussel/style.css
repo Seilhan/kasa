@@ -29,7 +29,6 @@
   justify-content: space-between;
   padding: 0 23px 0 23px;
   width: 100%;
-  cursor: pointer;
   position: absolute;
 }
 
@@ -39,4 +38,11 @@
   font-size: 18px;
   line-height: 25px;
   margin-top: 357px;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
 }

@@ -1,4 +1,4 @@
-function ArrowCarousselD() {
+function ArrowCarousselR() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -15,4 +15,4 @@ function ArrowCarousselD() {
   )
 }
 
-export default ArrowCarousselD
+export default ArrowCarousselR
