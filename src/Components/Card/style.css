@@ -33,3 +33,9 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+@media (max-width: 375px) {
+  .Card {
+    min-height: 255px;
+  }
+}

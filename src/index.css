@@ -119,3 +119,17 @@ body,
   margin-top: 30px;
   gap: 30px;
 }
+
+@media (max-width: 375px) {
+  .content {
+    /* max-width: 375px; */
+    padding: 20px 20px 0 20px;
+  }
+
+  .home-cards {
+    padding: 0;
+    background: white;
+    border-radius: 10px;
+    gap: 20px;
+  }
+}

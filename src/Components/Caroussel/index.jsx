@@ -8,7 +8,9 @@ function Caroussel(props) {
 
   const [image, setImage] = useState(URL[0])
 
-  function setNextImage() {}
+  function setNextImage() {
+    setImage()
+  }
 
   return (
     <div className="caroussel-container">

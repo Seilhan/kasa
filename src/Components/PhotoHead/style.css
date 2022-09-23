@@ -29,3 +29,20 @@
 .head-text {
   z-index: 1;
 }
+
+@media (max-width: 375px) {
+  .head-cover {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    height: 111px;
+  }
+
+  .head-text {
+    font-size: 24px;
+    width: 234px;
+    height: 48px;
+    padding-left: 16px;
+    line-height: 24px;
+  }
+}
