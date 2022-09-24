@@ -20,3 +20,13 @@
   height: 36px;
   margin-top: 50px;
 }
+
+@media (max-width: 375px) {
+  .TextFooter {
+    font-size: 12px;
+  }
+
+  .LogoFooter {
+    height: 39px;
+  }
+}

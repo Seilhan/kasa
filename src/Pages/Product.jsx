@@ -18,7 +18,7 @@ function Product() {
     <div className="content-product">
       <Caroussel pictures={product.pictures} />
       <div className="info-product">
-        <div>
+        <div className="info-product-container">
           <h1 className="title-product">{product.title}</h1>
           <p className="location-product">{product.location}</p>
           <div className="tagsProduts">
@@ -27,7 +27,7 @@ function Product() {
             ))}
           </div>
         </div>
-        <div>
+        <div className="info-product-img">
           <Host data={product.host} />
           <Rate nb={product.rating} />
         </div>

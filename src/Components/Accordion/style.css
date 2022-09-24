@@ -47,3 +47,16 @@
 .collapse-arrow {
   transition: all 0.3s;
 }
+
+@media (max-width: 375px) {
+  .collapse-button {
+    border-radius: 5px;
+    height: 29px;
+  }
+
+  .collapse-description {
+    font-size: 12px;
+    line-height: 17px;
+    padding: 23px 6px 52px 11px;
+  }
+}

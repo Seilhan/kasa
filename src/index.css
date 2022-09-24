@@ -153,4 +153,48 @@ body,
   .text {
     font-size: 14px;
   }
+
+  .content-product {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-product {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .info-product-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px;
+  }
+
+  .info-product-img {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .product-collapes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title-product {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .location-product {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  span {
+    font-size: 13px;
+  }
 }

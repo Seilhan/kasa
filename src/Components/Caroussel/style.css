@@ -46,3 +46,9 @@ button {
   cursor: pointer;
   padding: 0;
 }
+
+@media (max-width: 375px) {
+  .caroussel-container {
+    height: 255px;
+  }
+}
