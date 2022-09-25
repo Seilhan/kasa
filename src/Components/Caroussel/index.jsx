@@ -18,15 +18,12 @@ function Caroussel(props) {
    * La fonction définit l'image suivante dans le tableau d'images à afficher
    */
   function setNextImage() {
-    setImageIdx(imageIdx + 1)
-    setImage(URL[imageIdx])
-
     let idx = imageIdx + 1
     if (idx >= URL.length) {
       idx = 0
-      setImageIdx(idx)
-      setImage(URL[imageIdx])
     }
+    setImageIdx(idx)
+    setImage(URL[imageIdx])
   }
 
   /**
@@ -34,15 +31,12 @@ function Caroussel(props) {
    * de l'index d'image
    */
   function setPrevImage() {
-    setImageIdx(imageIdx - 1)
-    setImage(URL[imageIdx])
-
     let idx = imageIdx - 1
     if (idx < 0) {
       idx = URL.length - 1
-      setImageIdx(idx)
-      setImage(URL[imageIdx])
     }
+    setImageIdx(idx)
+    setImage(URL[imageIdx])
   }
 
   /* Renvoi d'un élément JSX. */
@@ -60,7 +54,7 @@ function Caroussel(props) {
         </div>
         <div>
           <p className="counter-nb">
-            {imageIdx}/{URL.length}
+            {imageIdx + 1}/{URL.length}
           </p>
         </div>
       </div>
