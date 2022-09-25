@@ -4,6 +4,7 @@ import Card from '../Components/Card'
 import { useState, useEffect } from 'react'
 import { getDatas } from '../api'
 
+/* Une fonction qui renvoie une div avec un PhotoHead et une div avec une Card. */
 function Home() {
   const [cards, setCards] = useState([])
 

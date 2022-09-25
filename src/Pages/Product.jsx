@@ -6,6 +6,7 @@ import Rate from '../Components/Rate'
 import Host from '../Components/Host'
 import Drop from '../Components/Accordion'
 
+/* Une fonction qui renvoie un composant. */
 function Product() {
   const { id } = useParams()
   const product = getIdProduct(id)

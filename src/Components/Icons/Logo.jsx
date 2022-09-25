@@ -1,3 +1,7 @@
+/**
+ * Il renvoie un élément SVG avec un élément de chemin à l'intérieur
+ * @returns Un composant React
+ */
 function Logo() {
   return (
     <svg

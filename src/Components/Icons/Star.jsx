@@ -1,3 +1,8 @@
+/**
+ * Il renvoie une étoile SVG avec une couleur de #FF6060 si la prop active est vraie, et une couleur de
+ * #E3E3E3 si la prop active est fausse
+ * @returns Une étoile SVG
+ */
 function Star(props) {
   const color = props.active ? '#FF6060' : '#E3E3E3'
   return (

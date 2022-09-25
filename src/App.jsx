@@ -6,6 +6,12 @@ import About from './Pages/About'
 import Product from './Pages/Product'
 import Error from './Pages/Error'
 
+/**
+ * La fonction App renvoie un composant BrowserRouter qui contient un div avec une classe de main, qui
+ * contient un div avec une classe de contenu, qui contient un composant Header, un composant Routes et
+ * un composant Footer
+ * @returns L'instruction return renvoie le code JSX qui est rendu au DOM.
+ */
 function App() {
   return (
     <BrowserRouter>

@@ -2,6 +2,14 @@ import Drop from '../Components/Accordion'
 import PhotoHead from '../Components/PhotoHead'
 import AboutCover from '../assets/about-cover.jpg'
 
+/**
+ * Il renvoie un div avec une classe about-container, qui contient un composant PhotoHead avec un prop
+ * img de AboutCover, qui contient un div avec une classe about-collapse, qui contient quatre
+ * composants Drop
+ * @returns Un div avec une classe about-container. À l'intérieur de cette div se trouve un composant
+ * PhotoHead et une div avec une classe about-collapse. À l'intérieur de cette div se trouvent quatre
+ * composants Drop.
+ */
 function About() {
   return (
     <div className="about-container">

@@ -1,3 +1,7 @@
+/**
+ * Il renvoie un élément SVG avec un élément de chemin à l'intérieur
+ * @returns Une fonction qui renvoie un élément JSX.
+ */
 function Arrow() {
   return (
     <svg

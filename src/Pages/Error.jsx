@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 
+/* C'est une fonction qui renvoie un élément JSX. */
 function Error() {
   return (
     <div className="error404">
