@@ -14,9 +14,11 @@ function Caroussel(props) {
     setImage(URL[imageIdx])
 
     let idx = imageIdx + 1
-    if (idx >= URL.length()) idx = 0
-    setImageIdx(idx)
-    setImage(URL[imageIdx])
+    if (idx >= URL.length) {
+      idx = 0
+      setImageIdx(idx)
+      setImage(URL[imageIdx])
+    }
   }
 
   function setPrevImage() {
