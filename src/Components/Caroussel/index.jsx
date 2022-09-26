@@ -15,28 +15,27 @@ function Caroussel(props) {
   const [image, setImage] = useState(URL[0])
 
   /**
-   * La fonction définit l'image suivante dans le tableau d'images à afficher
+   * Il définit l'image suivante dans le tableau d'images.
    */
-  function setNextImage() {
+  const setNextImage = () => {
     let idx = imageIdx + 1
     if (idx >= URL.length) {
       idx = 0
     }
     setImageIdx(idx)
-    setImage(URL[imageIdx])
+    setImage(URL[idx])
   }
 
   /**
-   * La fonction définit l'index d'image sur l'index d'image précédent, puis définit l'image sur l'URL
-   * de l'index d'image
+   * Il définit l'image précédente dans le tableau d'images.
    */
-  function setPrevImage() {
+  const setPrevImage = () => {
     let idx = imageIdx - 1
     if (idx < 0) {
       idx = URL.length - 1
     }
     setImageIdx(idx)
-    setImage(URL[imageIdx])
+    setImage(URL[idx])
   }
 
   /* Renvoi d'un élément JSX. */
